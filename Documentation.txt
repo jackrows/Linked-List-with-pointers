@@ -1,0 +1,37 @@
+Author: Alexandros Polychronopoulos
+Released:1/2/2018
+Develop enviroment: Visual Studio Windows
+
+Code:
+The program implement linked list in c using pointers. The data is a struct with multiple variables. 
+Every node of list contains a data struct and a pointer to next node.
+Some basic action on the list have been implement, such as insertion, printing, removing...
+The program doesn't accept command line arguments. It is interactive with the user,
+as the user input every time the next action to performed.
+New nodes add always at the end of the list.
+
+The program separate to many files:
+WorkingLab.c is the main function.
+Node.c is the struct of data.
+LinkedList.c is the linked list and her actions.
+GeneralFunctions.c is some extra general functions.
+
+
+Description:
+The program is simulation of a lab that need to keep some integer values. 
+Also accept and a small description for the values.
+Every node with values represent a different result of an experiment.
+
+
+			Graphical of structures
+
+node struct:			linked list struct
+ ____________			 _______________
+|	     |			|		|
+|description |			|  node struct	|
+|situation   |			|		|
+|values[]    |			|   next list	|
+|	     |			|		|
+ ------------			 ---------------
+
+
