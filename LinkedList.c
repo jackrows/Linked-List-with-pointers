@@ -234,7 +234,7 @@ void ListRemoveFirstNode(p_LinkedList p_list)
 		list_index = list_index->next;
 	}
 	ListDestroy(p_list);		/*Destroy the old*/
-	p_list = ListCreation();	/*Recreate the old*/
+	*p_list = *ListCreation();	/*Recreate the old*/
 	list_index = p_list;
 	new_list_index = new_list;
 	while(new_list_index->next != NULL)	/*Access the new list*/
